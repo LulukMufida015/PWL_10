@@ -17,4 +17,4 @@ use App\Http\Controllers\ArticleController;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::resource('articles', [ArticleController::class]);
+Route::resource('articles', ArticleController::class);
