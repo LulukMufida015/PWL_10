@@ -42,7 +42,7 @@ class ArticleController extends Controller
         Article::create([
             'title' => $request->title,
             'content' => $request->content,
-            'featured_image' => $request->$image_name,
+            'featured_image' => $image_name,
         ]);
         return 'Article berhasil disimpan';
     }
