@@ -5,10 +5,7 @@
 </head>
 <body>
     <style type="text/css">
-        table tr td,
-        table tr th{
-        font-size: 9pt;
-        }
+        table tr td,table tr th{font-size: 9pt;}
         </style>
         <center>
             <h5>Laporan Artikel</h4>
